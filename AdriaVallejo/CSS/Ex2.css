@@ -1,19 +1,43 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
-}
 h1{
     color: red;
 }
 h2{
-    color: gray;
-    text-decoration: underline;
+    color: #bbbbbb;
 }
-p{
-    font-style: oblique;
+h2~h2{
+    color: #999999;
 }
-span{
-    color: red;
+h2~h2~h2{
+    color: #666666;
+}
+h2~h2~h2~h2{
+    color: #111111;
 }
 li{
     list-style-type: upper-roman;
+}
+p span{
+    background-color: green;
+}
+.Franky{
+    background-color: green;
+}
+.Avi{
+    background-color: aqua;
+    color: blue;
+}
+.Boris{
+    background-color: greenyellow;
+    color: red;
+}
+.Tony{
+    background-color: red;
+    color: yellow;
+}
+ul a{
+    color: green;
+    text-decoration: none;
+}
+ul li{
+    text-transform: uppercase;
 }
